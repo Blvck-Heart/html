@@ -1,10 +1,88 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
+body {
+  background-color: #d7def5;
+}
 
+.form-container {
+  width: 25%;
+  margin: auto;
+  margin-top: 10%;
+}
 
+form {
+  padding: 25px;
+  height: 450px;
+}
+
+form h1,
+form .hr-p {
+  text-align: center;
+}
+
+form h1 {
+    font-size: 60px;
+}
+
+.hr-p {
+  margin: 20px 0;
+}
+
+form .pass {
+  margin-top: 35px;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid input {
+  width: 10px;
+  padding: 0;
+}
+
+p {
+  color: #a59c9c;
+}
+
+.forgot {
+    margin: 20px 0;
+}
+
+.forgot a {
+  color: #a32a2a;
+}
+
+.submit-btn input {
+  background-color: #3636fa;
+  color: #fff;
+  border: none;
+}
+
+.submit-btn input:hover {
+  cursor: pointer;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+.dha {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
